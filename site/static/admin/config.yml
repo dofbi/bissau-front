@@ -84,5 +84,6 @@ collections: # A list of collections the CMS should be able to edit
         label: "Pagina História"
         name: "historia"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
+          - {label: Título, name: title, widget: string}
+          - {label: Imagen, name: image, widget: image}
+          - {label: "Corpo do texto", name: "description", widget: "text"}
